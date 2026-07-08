@@ -11,10 +11,8 @@ jobs:
       - uses: actions/setup-go@v6
         with:
           go-version-file: go.mod
-      - name: golangci-lint
-        uses: golangci/golangci-lint-action@v8
-        with:
-          version: v2.12.2
+      - name: make lint
+        run: make lint
 
   test:
     runs-on: ubuntu-latest
