@@ -1,0 +1,9 @@
+apiVersion: restorecheck.mystman.com/v1alpha1
+kind: RestoreCheck
+metadata:
+  labels:
+    app.kubernetes.io/name: restorecheck
+    app.kubernetes.io/managed-by: kustomize
+  name: restorecheck-sample
+spec:
+  # TODO(user): Add fields here

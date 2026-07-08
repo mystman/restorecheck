@@ -1,1 +1,30 @@
-.notes
+# Binaries and build output
+bin/
+testbin/
+Dockerfile.cross
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binaries and coverage output
+*.test
+*.out
+cover.out
+cover.html
+
+# Go workspace files
+go.work
+go.work.sum
+
+# Editor / OS cruft
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Local working material (never commit)
+.notes/
